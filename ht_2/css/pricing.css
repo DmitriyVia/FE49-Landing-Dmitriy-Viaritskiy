@@ -1,0 +1,83 @@
+.prising {
+   padding: 80px 112px 60px 113px;
+   background-color: #F5F5F5;
+}
+.prising-line {
+   width: 64px;
+   height: 2px;
+   background-color: #E72424;
+   margin: auto;
+   margin-bottom: 34px;
+}
+.prising-description {
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 19px;
+   color: #86878B;
+   text-align: center;
+   margin-bottom: 62px;
+}
+
+.prising-ul {
+   margin: 0 -15px;
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+.prising-list {
+   margin: 0 15px;
+}
+.card-title {
+   width: 340px;
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 27px;
+   text-align: center;
+   color: #fff;
+   background-color: #333333;
+   padding: 12px 144px;
+   margin-bottom: 2px;
+}
+.card-prise {
+   padding: 26px 135px 33px 144px;
+   font-family: 'Raleway';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 35px;
+   line-height: 41px;
+   text-align: center;
+   width: 340px;
+   color: #fff;
+   background-color: #333333;
+   margin-bottom: 2px;
+}
+.card-mark {
+   width: 340px;
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 19px;
+   text-align: center;
+   color:#FFFFFF80;
+   background-color: #333333;
+   padding: 14px 127px 17px 135px;
+   margin-bottom: 2px;
+}
+.card-space {
+   widows: 340px;
+   padding: 10px 123px 11px 131px;
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 19px;
+   text-align: center;
+   color:#86878B;
+   background-color: #FFFFFF;
+   margin-bottom: 2px;
+}

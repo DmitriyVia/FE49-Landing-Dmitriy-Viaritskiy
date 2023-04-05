@@ -1,5 +1,6 @@
 @import url(./cdn.css);
-@import url(./section3.css);
+@import url(./section.css);
+@import url(./pricing.css);
 
 
 
@@ -23,10 +24,12 @@ html {
 }
 
 .title {
-   font-family: 'Realway';
-   width: 670px;
-   font-weight: 300;
+   font-family: 'Raleway';
+   font-style: normal;
+   font-weight: 400;
    font-size: 36px;
+   line-height: 42px;
+   width: 670px;
    margin: auto;
    text-align: center;
    text-transform: uppercase;
