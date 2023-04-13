@@ -1,0 +1,127 @@
+.social {
+   padding: 14px 0px;
+   background: #F8EFEF;
+}
+.socail-wrap {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   align-items: center;
+}
+
+.social-title {
+font-family: 'Open Sans';
+width: 125px;
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 27px;
+color: #333333;
+margin-bottom: 14px;
+}
+.socail-coment {
+width: 365px;
+font-weight: 400;
+margin-bottom: 17px;
+}
+
+.socail-coment p {
+   font-size: 14px;
+   font-weight: 400;
+   font-size: 14px;
+   font-family: 'Open Sans';
+   font-style: normal;
+   color: #86878B;
+}
+
+.social-navigation {
+   width: 680px;
+   margin-left: 80px;
+}
+.socail-list {
+   display: flex;
+   justify-content: space-between;
+}
+.socail-item {
+   cursor: pointer;
+}
+
+.fa-facebook-f {
+font-size: 34px;
+color: black;
+transition: 0.2s;
+}
+.fa-facebook-f:hover {
+   transform: scale(2);
+   color: #3b5998;
+
+}
+
+.fa-twitter {
+font-size: 34px;
+color: black;
+transition: 0.2s;
+}
+.fa-twitter:hover {
+   transform: scale(2);
+color:  #00acee;
+}
+.fa-google-plus-g {
+font-size: 34px;
+color: black;
+transition: 0.2s;
+}
+
+
+.fa-google-plus-g:hover {
+   transform: scale(2);
+   color: #3a7cec;
+
+}
+
+
+.fa-instagram {
+font-size: 34px;
+color: black;
+transition: 0.2s;
+}
+
+.fa-instagram:hover {
+   transform: scale(2);
+   color:  #3f729b;
+
+}
+
+.fa-wikipedia-w {
+   font-size: 34px;
+   color: black;
+   transition: 0.2s;
+}
+
+
+.fa-wikipedia-w:hover {
+transform: scale(2);
+color: #00acee;
+}
+
+.fa-telegram{
+   font-size: 34px;
+   color: black;
+transition: 0.2s;
+}
+
+.fa-telegram:hover {
+transform: scale(2);
+color: #3a7cec;
+}
+
+.fa-linkedin {
+   font-size: 34px;
+   color: black;
+   transition: 0.2s;
+}
+
+.fa-linkedin:hover {
+transform: scale(2);
+color:  #0e76a8;
+}

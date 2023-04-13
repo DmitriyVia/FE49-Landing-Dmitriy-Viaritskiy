@@ -1,0 +1,59 @@
+.footer {
+   padding: 30px 0;
+   background-color: black;
+}
+
+.wrap {
+display: block;
+}
+.footer-navigation {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 18px;
+}
+.footer-list {
+   display: flex;
+}
+.footer-item {
+   margin-left: 48px;
+}
+
+.fa-facebook-f--one {
+   color: #fff;
+   font-size: 24px;
+}
+.fa-twitter--two {
+   color: #fff;
+   font-size: 24px;
+}
+.fa-google-plus-g--three {
+   color: #fff;
+   font-size: 24px;
+}
+.fa-instagram--four {
+   color: #fff;
+   font-size: 24px;
+}
+.fa-wikipedia-w--five {
+   color: #fff;
+   font-size: 24px;
+}
+.fa-telegram--six {
+   color: #fff;
+   font-size: 24px;
+}
+.fa-linkedin--seven {
+   color: #fff;
+   font-size: 24px;
+}
+.footer-description {
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+text-align: center;
+color: rgba(255, 255, 255, 0.5);
+}
+

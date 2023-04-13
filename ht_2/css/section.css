@@ -1,69 +1,99 @@
 
 .awesome {
-   padding: 80px 143px 116px 127px;
-   background-color: #fff;
- }
-.line {  
-   width: 64px;
-   height: 2px;
-   background-color: #E72424;
+   padding: 80px 0 116px;
+}
+
+.title {
+   font-family: 'Raleway';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 36px;
+   line-height: 42px;
+   width: 670px;
+   color: #212121;
    margin: auto;
-   margin-bottom: 36px;
- }
-.awesome-description p {
    text-align: center;
-   margin: auto;
-   font-family: 'Open Sans';
+   text-transform: uppercase;
+   margin-bottom: 34px;
+}
+
+
+
+.awesome-description {
    font-style: normal;
    font-weight: 400;
    font-size: 14px;
    line-height: 19px;
-   color: #86878B;
+   width: 780px;
+   color: #86878b;
+   text-align: center;
+   margin: auto;
    margin-bottom: 68px;
-}
 
+
+}
 .awesome-wrap {
-   margin: 0 -15px;
    display: flex;
    justify-content: space-between;
    flex-wrap: wrap;
-   margin-bottom: 46px;
 }
-
 .awesome-card {
    width: 350px;
-   border: 1px none black;
-   margin: 0 15px;
 }
 
 .awesome-card__img {
-   margin: auto;
-   width: 70px;
-   height: 70px;
-   border: 1px solid #E72424;
-   border-radius: 50%;
-   display: flex;
-   justify-content: center;
-   align-items: center; 
-   margin-bottom: 30px;
+margin: auto;
+border: 1px solid red;
+border-radius: 50%;
+height: 70px;
+width: 70px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 25px;
+}
+
+.fa-lightbulb {
+color: coral;
+font-size: 23px;
+}
+
+.fa-keyboard {
+   color: coral;
+   font-size: 23px;
+}
+.fa-bolt-lightning {
+   color: coral;
+   font-size: 23px;
 }
 
 .awesome-card__title {
-   font-family: 'Open Sans';
+   font-style: normal;
    font-weight: 700;
    font-size: 20px;
-   line-height: 27px;
-   margin: auto;
-   text-align: center;
-   margin-bottom: 16px;
+   width: 189px;
    color: #333333;
+   text-align: center;
+   margin: auto;
+   margin-bottom: 16px;
+   text-transform: capitalize;
 }
-
-.awesome-card__text p {
-   font-family: 'Open Sans';
+.awesome-card__text {
+   font-style: normal;
    font-weight: 400;
    font-size: 14px;
    line-height: 19px;
-   color:  #000000;
+   color: #000000;
    text-align: center;
+
+}
+
+.awesome-card__text p {
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 19px;
+   color: #000000;
+   text-align: center;
+
 }
