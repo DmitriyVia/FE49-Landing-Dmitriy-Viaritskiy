@@ -1,127 +1,113 @@
 .social {
-   padding: 14px 0px;
-   background: #F8EFEF;
-}
-.socail-wrap {
-   display: flex;
-   justify-content: space-between;
-   flex-wrap: wrap;
-   align-items: center;
+   background-color: rgba(248, 239, 239, 1);
+   padding: 17px 0;
 }
 
 .social-title {
-font-family: 'Open Sans';
-width: 125px;
-font-style: normal;
-font-weight: 700;
-font-size: 20px;
-line-height: 27px;
-color: #333333;
-margin-bottom: 14px;
-}
-.socail-coment {
-width: 365px;
-font-weight: 400;
-margin-bottom: 17px;
+   color: rgba(51, 51, 51, 1);
+   font-family: 'Open Sans';
+   font-size: 20px;
+   font-weight: 700;
+   margin-bottom: 14px;
 }
 
-.socail-coment p {
+.media-discription {
+   width: 365px;
+}
+
+.media-discription p {
+   font-family: 'Open Sans';
+   color: rgba(134, 135, 139, 1);
    font-size: 14px;
    font-weight: 400;
-   font-size: 14px;
-   font-family: 'Open Sans';
-   font-style: normal;
-   color: #86878B;
 }
 
-.social-navigation {
-   width: 680px;
-   margin-left: 80px;
-}
-.socail-list {
+.media-wrape {
    display: flex;
+   align-items: center;
    justify-content: space-between;
 }
-.socail-item {
-   cursor: pointer;
+
+.media-list {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 685px;
 }
 
-.fa-facebook-f {
-font-size: 34px;
-color: black;
-transition: 0.2s;
-}
-.fa-facebook-f:hover {
-   transform: scale(2);
-   color: #3b5998;
-
+.media-list_item {
+   font-size: 42px;
 }
 
-.fa-twitter {
-font-size: 34px;
-color: black;
-transition: 0.2s;
-}
-.fa-twitter:hover {
-   transform: scale(2);
-color:  #00acee;
-}
-.fa-google-plus-g {
-font-size: 34px;
-color: black;
-transition: 0.2s;
+.fa-facebook-f_media {
+   color: rgba(134, 135, 139, 0.7);
+   transition: 1s;
 }
 
+.fa-facebook-f_media:hover {
+   color: rgba(9, 29, 109, 0.7);
+   transform: translate(4px, 4px);
+}
 
-.fa-google-plus-g:hover {
-   transform: scale(2);
-   color: #3a7cec;
+.fa-twitter_media {
+   color: rgba(134, 135, 139, 0.7);
+   transition: 2s;
+}
 
+.fa-twitter_media:hover {
+   color: rgba(0, 172, 238, 1);
+   transform: rotate(360deg);
 }
 
 
-.fa-instagram {
-font-size: 34px;
-color: black;
-transition: 0.2s;
+.fa-goodreads-g_media {
+   color: rgba(134, 135, 139, 0.7);
+   transition: 1s;
 }
 
-.fa-instagram:hover {
-   transform: scale(2);
-   color:  #3f729b;
-
+.fa-goodreads-g_media:hover {
+   color: red;
+   transform: skew(-30deg, 30deg);
 }
 
-.fa-wikipedia-w {
-   font-size: 34px;
-   color: black;
-   transition: 0.2s;
+.fa-pinterest_media {
+   color: rgba(134, 135, 139, 0.7);
+   transition: 1s;
 }
 
-
-.fa-wikipedia-w:hover {
-transform: scale(2);
-color: #00acee;
+.fa-pinterest_media:hover {
+   color: rgba(200, 35, 44, 1);
+   transform: scale(1.5);
 }
 
-.fa-telegram{
-   font-size: 34px;
-   color: black;
-transition: 0.2s;
+.fa-instagram_media {
+   color: rgba(134, 135, 139, 0.7);
+   transition: 1s;
+   transform-origin: top left;
 }
 
-.fa-telegram:hover {
-transform: scale(2);
-color: #3a7cec;
+.fa-instagram_media:hover {
+   color: rgba(188, 42, 141, 1);
+   transform: rotate(45deg);
 }
 
-.fa-linkedin {
-   font-size: 34px;
-   color: black;
-   transition: 0.2s;
+.fa-stumbleupon_media {
+   color: rgba(134, 135, 139, 0.7);
+   transition: 1s;
 }
 
-.fa-linkedin:hover {
-transform: scale(2);
-color:  #0e76a8;
+.fa-stumbleupon_media:hover {
+   color: rgba(247, 68, 37, 1);
+   transform: rotate(180deg);
+}
+
+.fa-wifi_media {
+   color: rgba(134, 135, 139, 0.7);
+   transition: 1s;
+   transform-origin: bottom;
+}
+
+.fa-wifi_media:hover {
+   color: rgb(12, 28, 146);
+   transform: scale(1.5);
 }

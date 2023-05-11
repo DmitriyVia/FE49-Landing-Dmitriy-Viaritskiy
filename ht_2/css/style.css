@@ -1,12 +1,14 @@
 @import url("./cdn.css");
+@import url("./header.css");
+@import url("./modern.css");
+@import url('./social.css');
+@import url("./tab.css");
 @import url("./section.css");
 @import url("./pricing.css");
 @import url("./testi.css");
-@import url("./header.css");
 @import url("./axure.css");
-@import url("./social.css");
+@import url("./contact.css");
 @import url("./footer.css");
-
 
 
 
@@ -52,4 +54,611 @@ html {
    display: block;
    margin: auto;
    margin-top: 34px;
+}
+
+@media (max-width: 1200px) {
+html {
+   font-size: 14px;
+   }
+
+.container {
+   max-width: 970px;
+   }
+
+.socail-list {
+   width: 500px;
+   }
+
+.socail-item {
+   font-size: 38px;
+   }
+
+.header-tab_btn {
+   width: 90px;
+   height: 90px;
+   }
+
+.tab-content_text {
+   width: 400px;
+   }
+
+.content1 {
+   width: 800px;
+   justify-content: space-around;
+   }
+
+.awesome-card {
+   width: 250px;
+   }
+
+.prising-list {
+   width: 280px;
+   }
+
+.card-price {
+   line-height: 80px;
+   font-size: 30px;
+   font-weight: 600;
+   }
+
+.testi-wrap {
+display: flex;
+   }
+
+}
+
+@media (max-width: 992px) {
+html {
+   font-size: 12px;
+   }
+
+.container {
+   max-width: 750px;
+   }
+
+.modern-title {
+   width: 400px;
+   }
+
+.modern-form {
+   width: 300px;
+   }
+
+
+.form-wrap {
+   width: 100%;
+   }
+
+.form-btn__submit {
+   width: 100%;
+background-color: #FFF;
+color: coral;
+font-size: 20px;
+text-decoration: underline;
+margin-bottom: 20px;
+}
+
+.form-title {
+   width: 100%;
+   font-size: 14px;
+   }
+
+   .media-discription {
+      width: 300px;
+   }
+
+.media-list {
+width: 400px;
+}
+
+.media-list_item {
+   font-size: 28px;
+}
+
+   .header-tab_btn {
+   width: 80px;
+   height: 80px;
+   }
+
+   .tab-wraper {
+   width: 100%;
+   justify-content: start;
+   }
+
+   .tab-content1 {
+   width: 400px;
+   }
+
+   .content1 {
+   margin-left: 30px;
+   width: 500px;
+   justify-content: space-between;
+   }
+
+   .tab-content_text {
+   width: 400px;
+   margin-bottom: 50px;
+   }
+
+   .tab-content_picture {
+   display: flex;
+   align-items: center;
+   }
+
+   .tab-content_picture img {
+   width: 200px;
+   }
+
+   .tab-content_title {
+   font-size: 16px;
+   margin-bottom: 30px;
+   }
+
+.awesome-card {
+   width: 200px;
+   }
+
+.awesome-card_img {
+   width: 50px;
+   height: 50px;
+   }
+
+.awesome-card__title {
+   font-size: 16px;
+   font-weight: 600;
+   }
+
+.prising-list {
+   width: 200px;
+   }
+
+.tariff-title {
+   line-height: 30px;
+   font-size: 18px;
+   }
+
+.testi-wrap {
+   display: flex;
+   flex-direction: column;
+}
+
+.testi-card__item {
+   display: flex;
+flex-direction: column;
+}
+
+.card-price {
+   line-height: 60px;
+   font-size: 24px;
+   }
+
+.testi-card {
+   width: 200px;
+   }
+
+.testi-card__item {
+   padding: 0 20px;
+   }
+
+.testi-card__name span {
+   font-size: 18px;
+   font-weight: 600;
+   }
+
+}
+
+@media (max-width: 767px) {
+html {
+   font-size: 10px;
+   }
+
+.container {
+   width: 100%;
+   }
+
+.content1 {
+   width: 560px;
+   justify-content: space-between;
+   }
+
+.awesome-description {
+   margin: auto;
+   margin-bottom: 68px;
+   width: 600px;
+   }
+
+.contact-description {
+   margin: auto;
+   margin-bottom: 68px;
+   width: 600px;
+   }
+
+.axure-description {
+   width: 680px;
+   text-align: center;
+   margin: auto;
+   margin-bottom: 30px;
+   }
+}
+
+@media (max-width: 566px) {
+html {
+   font-size: 13px;
+   }
+
+.container {
+   width: 100%;
+   }
+
+.header-wrap {
+   display: flex;
+   flex-direction: column;
+}
+
+.navigation {
+   margin-top: 10px;
+}
+
+.modern-wrap {
+   flex-direction: column;
+   }
+
+.modern {
+   padding: 50px 0;
+   }
+
+.modern-logo {
+   text-align: center;
+   display: block;
+   justify-content: center;
+   }
+
+.modern-title {
+   width: 100%;
+   text-align: center;
+   display: block;
+   }
+
+.modern-title::after {
+   text-align: center;
+   display: block;
+   margin: auto;
+   margin-top: 10px;
+   }
+
+.modern-discription {
+   width: 100%;
+   margin-bottom: 40px;
+   text-align: center;
+   }
+
+.modern-link {
+   margin: auto;
+   margin-bottom: 30px;
+   }
+
+.modern-form {
+   margin: auto;
+   width: 370px;
+   }
+
+.socail-title {
+   width: 100%;
+   margin: auto;
+   text-align: center;
+   margin-bottom: 10px;
+   }
+
+.media-discription {
+   width: 100%;
+   margin-bottom: 10px;
+}
+
+.media-discription p {
+   text-align: center;
+   font-size: 12px;
+}
+
+.media-wrape {
+   flex-direction: column;
+}
+
+.media-list {
+   justify-content: space-between;
+}
+
+.media-list_item {
+   font-size: 28px;
+}
+
+.tab {
+   padding: 90px 0;
+   }
+
+.tab-wraper {
+   display: flex;
+   justify-content: space-between;
+   flex-direction: column;
+   }
+
+.header-tab {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   margin-bottom: 20px;
+   }
+
+.tab-content_title {
+   text-align: center;
+   }
+
+.tab-content_text {
+   margin-bottom: 50px;
+   width: 100%;
+   text-align: center;
+   }
+
+.tab-content1 {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   width: 530px;
+   }
+.content1{
+   margin: auto;
+   flex-direction: column;
+   justify-content: space-between;
+   width: 530px;
+}
+
+.tab-content_picture {
+   width: 100%;
+   align-items: center;
+   margin: auto;
+   }
+
+.tab-content_picture img {
+   width: 100%;
+   margin: auto;
+   margin-bottom: 20px;
+   }
+
+.tab-content_discription {
+   width:100%;
+   }
+
+.tab-conten_download {
+   width: 100%;
+   }
+
+.tab-conten_download-item {
+   margin: auto;
+   }
+
+.card-wrap {
+   flex-direction: column;
+   }
+
+.awesome-card {
+   width: 350px;
+   margin-bottom: 20px;
+   }
+
+.awesome-description {
+   width: 400px;
+   }
+
+.prising-wrap {
+   flex-direction: column;
+   }
+
+.prising-list {
+   width: 340px;
+   margin: 0 15px;
+   transition: 0.9s;
+   }
+
+.card-space:last-child {
+   margin-bottom: 20px;
+   }
+
+.testi-wrap {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   margin: 0 -15px;
+   flex-wrap: wrap;
+   }
+
+.title {
+   width: 100%;
+   margin: auto;
+   text-align: center;
+   margin-bottom: 10px;
+   }
+
+.testi-description {
+      width: 400px;
+      }
+
+
+.testi-card {
+   width: 300px;
+   margin: 0 15px;
+   margin: auto;
+   margin-bottom: 20px;
+   }
+
+.axure-description {
+   width: 530px;
+   }
+
+.contact-wrap {
+   display: flex;
+   flex-direction: column;
+   }
+
+.contact-about {
+   width: 90%;
+   margin: auto;
+   margin-bottom: 30px;
+   }
+
+.contact-message__item {
+   width: 90%;
+   height: 100%;
+   margin: auto;
+   }
+}
+
+@media (max-width: 320px) {
+html {
+   font-size: 12px;
+   }
+
+.container {
+   width: 100%;
+   }
+
+.navigation-list {
+   display: none;
+   }
+
+.modern-form {
+   margin: auto;
+   width: 280px;
+   }
+
+.form-info {
+   padding: 20px 20px 60px;
+   }
+
+.socail-title {
+   width: 100%;
+   margin: auto;
+   text-align: center;
+   margin-bottom: 10px;
+   }
+
+.media-discription {
+   width: 100%;
+   margin-bottom: 10px;
+}
+
+.media-list {
+   justify-content: space-evenly;
+   padding: 0 15px;
+   width: 300px;
+}
+
+.media-list_item {
+   font-size: 14px;
+}
+
+
+.tab-content_title {
+   text-align: center;
+   width: 290px;
+   font-size: 20px;
+   }
+.tab-content1 {
+   width: 290px;
+   }
+.content1{
+   width: 100%;}
+
+.tab-content_text {
+   width: 290px;
+   text-align: center;
+   }
+
+.tab-content_picture {
+   width: 290px;
+   }
+.tab-content_picture img {
+   width: 100%;
+   margin: auto;
+   margin-bottom: 20px;
+   }
+
+.tab-conten_download {
+   width: 290px;
+   }
+
+.title {
+   width: 280px;
+   font-size: 20px;
+   }
+
+.awesome {
+   padding: 50px 0 50px;
+   }
+
+.awesome-card {
+   width: 280px;
+   }
+
+.awesome-description {
+   width: 100%;
+   margin-bottom: 20px;
+}
+
+.prising-description {
+   width: 280px;
+   }
+
+.prising-list {
+   width: 280px;
+   }
+
+.testi-description {
+   width: 100%;
+   margin-bottom: 10px;
+}
+
+.testi-card {
+   width: 280px;
+   margin: 0 15px;
+   margin: auto;
+   margin-bottom: 20px;
+   }
+
+.axure-title {
+   width: 280px;
+   }
+
+.axure-description {
+   width: 280px;
+   }
+
+.contact-description {
+   width: 100%;
+   margin-bottom: 10px;
+}
+
+.contact-wrap {
+   display: flex;
+   flex-direction: column;
+   }
+
+.contact-about {
+   width: 90%;
+   margin: auto;
+   margin-bottom: 30px;
+   }
+
+.contact-message__item {
+   width: 90%;
+   height: 100%;
+   margin: auto;
+   }
+
+.footer-list {
+   width: 280px;
+   }
+
+   .footer-item {
+   font-size: 13px;
+   }
+
 }

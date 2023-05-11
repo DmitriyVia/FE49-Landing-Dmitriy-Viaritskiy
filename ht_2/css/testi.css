@@ -20,7 +20,7 @@ padding: 80px 0px;
    margin: 0 -15px;
 }
 .testi-card {
-   widows: 300px;
+   width: 300px;
    margin: 0 15px;
 
 }
@@ -58,7 +58,7 @@ color: #86878B;
 
 .testi-card__item {
    display: flex;
-   justify-content: space-around;
+   justify-content: space-between;
 }
 
 .testi-card__img {
